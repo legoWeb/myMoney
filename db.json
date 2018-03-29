@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "wfm@mail.ru",
+      "password": "12345678",
+      "name": "Администратор"
+    }
+  ],
+  "bill": {
+    "value": 43800,
+    "currency": "RUB"
+  },
+  "categories": [
+    {
+      "name": "Дом",
+      "capacity": 15000,
+      "id": 1
+    },
+    {
+      "name": "Еда",
+      "capacity": 10000,
+      "id": 2
+    },
+    {
+      "name": "Машина",
+      "capacity": 21000,
+      "id": 3
+    },
+    {
+      "name": "Отдых",
+      "capacity": 100000,
+      "id": 4
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2,
+      "date": "12.03.2018 19:49:02",
+      "description": "Подарили еду в гостях"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1,
+      "date": "13.03.2018 19:49:02",
+      "description": "Купил посудомоечную машину"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": 2,
+      "date": "17.03.2018 14:00:48",
+      "id": 3,
+      "description": "Поход в окей с баллами. Бесплатная еда"
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": 2,
+      "date": "17.03.2018 14:00:58",
+      "id": 4,
+      "description": "Закупка на неделю"
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": 3,
+      "date": "10.03.2018 14:01:58",
+      "id": 5,
+      "description": "Заправка + проход ТО"
+    },
+    {
+      "type": "outcome",
+      "amount": 1200,
+      "category": 3,
+      "date": "02.03.2018 23:28:48",
+      "description": "Test",
+      "id": 6
+    },
+    {
+      "type": "outcome",
+      "amount": 3000,
+      "category": 3,
+      "date": "02.03.2018 23:29:11",
+      "description": "test 2",
+      "id": 7
+    },
+    {
+      "type": "income",
+      "amount": 12000,
+      "category": 3,
+      "date": "28.03.2018 14:22:23",
+      "description": "test",
+      "id": 8
+    },
+    {
+      "type": "outcome",
+      "amount": 13000,
+      "category": 3,
+      "date": "28.03.2018 14:23:22",
+      "description": "test2",
+      "id": 9
+    },
+    {
+      "type": "outcome",
+      "amount": 50000,
+      "category": 4,
+      "date": "28.03.2018 14:24:45",
+      "description": "маями",
+      "id": 10
+    },
+    {
+      "type": "outcome",
+      "amount": 1200,
+      "category": 2,
+      "date": "28.03.2018 19:42:40",
+      "description": "поел в ресторане",
+      "id": 11
+    },
+    {
+      "type": "outcome",
+      "amount": 200,
+      "category": 3,
+      "date": "28.03.2018 23:04:49",
+      "description": "кинул кота в машину",
+      "id": 12
+    },
+    {
+      "type": "income",
+      "amount": 400,
+      "category": 1,
+      "date": "28.03.2018 23:05:19",
+      "description": "кот сам сделал чистку салона",
+      "id": 13
+    }
+  ]
+}
